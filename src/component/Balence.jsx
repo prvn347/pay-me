@@ -4,7 +4,7 @@ import { useEffect, useState } from "react"
 export const Balance = ({ value }) => {
     const [balence,setBalence] = useState(0)
     useEffect(()=>{
-        axios.get("http://localhost:3000/api/v1/account/balence",{
+        axios.get("https://payme-n7nv.onrender.com/api/v1/account/balence",{
             headers: {
                 Authorization: "Bearer "+ localStorage.getItem("token")
               }

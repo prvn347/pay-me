@@ -9,7 +9,7 @@ export function AppBar(){
   
 const [name,setName] = useState("")
 useEffect(()=>{
-    axios.get("http://localhost:3000/api/v1/user/me",{
+    axios.get("https://payme-n7nv.onrender.com/api/v1/user/me",{
         headers: {
             Authorization: "Bearer "+ localStorage.getItem("token")
           }
