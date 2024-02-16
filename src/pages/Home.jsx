@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import { Button } from "../component/Button";
 import { AppBar } from "../component/AppBar";
 import { UnAuthAppBar } from "../component/UnAuthAppBar";
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 export function Home(){
 
