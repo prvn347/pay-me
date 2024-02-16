@@ -1,4 +1,5 @@
 import React from "react"
+
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import { NotFound } from "./component/NotFound";
@@ -19,10 +20,11 @@ function App() {
             <Route path="/dashboard" element ={<DashBoardPage/>} />
             <Route path="/send" element={<SendMoney/>} />
             <Route path="/" element= {<Home/>} />
-
+            
           </Routes>
 
         </Router>
+       
     </div>
   )
 }

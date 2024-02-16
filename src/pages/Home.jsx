@@ -2,6 +2,7 @@ import { useNavigate } from "react-router-dom";
 import { Button } from "../component/Button";
 import { AppBar } from "../component/AppBar";
 import { UnAuthAppBar } from "../component/UnAuthAppBar";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export function Home(){
 
@@ -24,5 +25,6 @@ export function Home(){
         </div>
        
     </div>
+    <SpeedInsights />
     </div>
 }

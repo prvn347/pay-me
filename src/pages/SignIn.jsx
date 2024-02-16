@@ -35,10 +35,10 @@ const [password,setPassword] = useState("")
 
 <InputBox onChange={(e)=>{
 setUsername(e.target.value)
-}} placeholder= {"prvn347@gmail.com"}label={"Email"}  />
+}} placeholder= {"Email"}label={"Email"}  />
 <InputBox onChange={(e)=>{
     setPassword(e.target.value)
-}} placeholder= {"123241321"}label={"Password"}  />
+}} placeholder= {"Password"}label={"Password"}  />
 <div className="pt-4">
    <Button label={"Sign in"} onClick={ async()=>{
    const response = await axios.post("https://payme-n7nv.onrender.com/api/v1/user/signin",{
